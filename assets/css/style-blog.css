@@ -1,0 +1,219 @@
+.mg-0 {
+    margin: 0;
+    
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.mg-22 {
+    margin-top: 22.5px;
+}
+
+.pd-22 {
+    padding-bottom: 22.5px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.now-pay h1 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: .05em;
+}
+
+.transform-blog {
+    transform: translate3d(0px, 0px, 0px) scale(1.3);
+    will-change: transform;
+    transition: transform 0.3s cubic-bezier(0, 0, 0, 1) 0s;
+    object-fit: cover;
+    height: 400px;
+}
+
+/* New */
+
+.new .breadcrumb {
+    padding: 0 1.04166667%;
+    margin: 22.5px 2.966% 0px;
+    justify-content: center;
+    display: grid;
+    grid-row-gap: 30px;
+}
+
+.new .breadcrumb a {
+    color: #2b2b2b;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.new .sub-breadcrumb {
+    padding: 0 1.04166667%;
+    margin: 22.5px 2.966% 0px;
+    width: 94%;
+}
+
+.sub-breadcrumb .new-body h2 {
+    margin-bottom: 5px;
+}
+
+.sub-breadcrumb .new-body p {
+    margin-bottom: 10px !important;
+}
+
+.sub-breadcrumb .pagination {
+    margin: 30px 0;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: center;
+}
+
+.sub-breadcrumb span {
+    margin-bottom: 20px !important;
+    font-weight: 700;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0,4fr) 1fr;
+    column-gap: 25px;
+}
+
+.grid-container .item1 img{
+    width: 100%;
+}
+
+.item1 .article {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.article .article-body h3 {
+    margin-bottom: 5px;
+}
+
+.article-body h3 a {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2b2b2b;
+    letter-spacing: .05em;
+}
+
+.article-body p {
+    margin-right: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.article-body .article-content {
+    margin: 15px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 15px;
+}
+
+.article-body .readmore a {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.grid-container .item2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item2 .blog-sliderbar {
+    padding: 10px;
+    margin: 0px 0px 20px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    border: 1px solid #d5d5d5;
+}
+
+.blog-sliderbar h4 {
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-weight: 700;
+    letter-spacing: .05em;
+}
+
+.blog-sliderbar p {
+    margin-bottom: 10px !important;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-weight: 400;
+}
+
+.blog-sliderbar input {
+    border: 1px solid #d5d5d5;
+    margin: 0px 0px 10px;
+    padding: 0;
+    border-radius: 0;
+    text-indent: 10px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-weight: 400;
+}
+
+.blog-sliderbar button {
+    width: 100%;
+    border-radius: 0;
+    border: 2px solid #2b2b2b;
+    height: 50px;
+    line-height: 46px;
+    background: #2b2b2b;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.blog-sliderbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blog-sliderbar ul li {
+    margin-bottom: 5px;
+}
+
+.blog-sliderbar li a {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 15px;
+}
+
+.blog-sliderbar .blog-info button {
+    margin: 10px 0px;
+}

@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn.shopify.com/static/shopify-favicon.png" />
+    <title>Preview Galleria Theme - Fashionopolism Ecommerce Website Template</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="./assets/script/script.js" defer></script> -->
+    <script src="./assets/script/script-highlight.js" defer></script>
+    
+
+</head>
+<body>
+    <div id="main">
+        <div class="contain pd-16">
+            <div class="d-flex justify-content-between">
+                <div class="">
+                    <button class="btn-back btn">
+                        <i class="ti-angle-left"></i>
+                        <span>Back</span>
+                    </button>
+                </div>
+                <div class="sub-theme">
+                    <div class="theme-style">
+                        <ul class="theme flex">
+                            <li class="theme-heading">
+                                <span>Themestyles</span>
+                            </li>
+                            <li class="theme-btn">
+                                <button type="button" class="btn-list btn">
+                                    <div class="list">
+                                        <p class="circle " data-bs-toggle="dropdown"><span>Galleria</span></p>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                        </ul>
+                                        <i class="ti-angle-down"></i>
+                                    </div>
+                                </button>
+                            </li>
+                        </ul>
+
+
+                        <ul class="display flex">
+                            <li>
+                                <button class="btn-desktop mg-12">
+                                    <i class="ti-desktop"></i>
+                                </button>
+                            </li>
+    
+                            <li>
+                                <button class="btn-talet">
+                                    <i class="ti-tablet"></i>
+                                </button>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </div>
+                <div class="try-theme">
+                    <div>
+                        <a href="try-theme.html">
+                            <button class="btn-try">Try theme</button>
+                        </a>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="scroll">
+            <div id="slider">
+                <div class="sub-slider">
+                    <ul class="list-icon">
+                        <li><a href=""><i class="ti-facebook" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                    <!-- <div class="icon-slider">
+                    </div> -->
+                    
+                    <div class="slider-section">
+                        
+                        <button class="icon-angle btn-left"  id="sliderPrev" onclick="prevSlide();">
+                            <i class="ti-angle-left size-12"></i>
+                        </button>
+                        <div class="sub-section">
+                            
+                            <p class="mySlides heading_1">
+                                <strong>FREE INTERNATIONAL SHIPPING</strong>
+                            </p>
+                            <p class="mySlides heading_2">
+                                <strong>EXTENDED WARRANTY AVAILABLE</strong>
+                            </p>
+                        </div>
+                        <button class="icon-angle btn-right" id="sliderNext" onclick="nextSlide();">
+                            <i class="ti-angle-right size-12"></i>
+                        </button>
+                    </div>
+        
+                    <div class="flag list-icon ">
+                        <div class="sub-flag">
+                            <button class="btn-flag">
+                                <img src="./assets/img/slider/us.svg" alt="">
+                                <span>USD $</span>  
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="search-card">
+                <div class="card-section">
+                    <div class="icon-menu">
+                        <form action="" class="form-search">
+                            <div class="form-search_inner">
+                                <input type="text" class="" placeholder="Search" class="search-input">
+                                <button>
+                                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="search-menu">
+                        <form action="" class="form-search">
+                            <div class="form-search_inner">
+                                <button type="button" onclick="document.getElementById('search').style.display = 'block'">
+                                    <i class="ti-menu" style="color: #000000; font-size: 24px; height: 16px !important;"></i>
+                                </button>
+                            </div>
+                            <div id="search" class="w3-animate-bottom">
+                                <div class="product_section modal">
+                                    <div class="product_card">
+                                        <div class=" quick-close"  onclick="document.getElementById('search').style.display = 'none'">
+                                            <i class="ti-close"></i>
+                                        </div>
+                                        <div class="cart_0">
+                                            <a>
+                                                <span>Cart 0</span>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </a>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <a>Home</a>
+                                            </li>
+                                            <li>
+                                                <a>Shop</a>
+                                                <button type="button">
+                                                    <svg class="fash--apollo-down-carrot c-accordion__header--icon vib-center" height="6px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 13.3" xml:space="preserve">
+                                                        <g class="hover-fill" fill="#ffffff">
+                                                          <polygon points="17.7,0 10,8.3 2.3,0 0,2.5 10,13.3 20,2.5 "></polygon>
+                                                        </g>
+                                                        <style>.c-accordion__header .fash--apollo-down-carrot:hover .hover-fill { fill: #ffffff;}</style>
+                                                      </svg>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <a>Blog</a>
+                                            </li>
+                                            <li>
+                                                <a>Theme Features</a>
+                                            </li>
+                                        </ul>
+                                        <div class="menu_search">
+                                            <input type="text" class="" placeholder="Search" class="search-input" style="color: #ffffff;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <div class="img-card">
+                        <img src="./assets/img/menu-card/galleria.webp" alt="">
+                    </div>
+                    <div class="icon-shopping">
+                        <div class="btn-shop card-btn">
+                                <button class="content-shopping cart1" type="button" onclick="document.getElementById('card').style.display = 'block'">
+                                    <span class="text">Cart</span>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span class="number">0</span>
+                                </button>
+                                <button class="content-shopping cart2" type="button" onclick="document.getElementById('card').style.display = 'block'">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>0</span>
+                                </button>
+                        </div>
+                    </div>
+                    <div id="card" class="w3-animate-bottom">
+                        <div class="product_section modal">
+                            <div class="product_card">
+
+                                <div class="span-4 quick-close"  onclick="document.getElementById('card').style.display = 'none'">
+                                    <i class="ti-close"></i>
+                                </div>
+                                <div class="span-4">
+                                    <h2>Cart</h2>
+                                </div>
+                                <div class="span-4">
+                                    <p>
+                                        <span>0 Item(s)</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-card">
+                                <p>
+                                    Your cart is currently empty.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <nav class="menu">
+                    
+                </nav>
+            </div>
+
+            <div id="menu">
+                <nav class="nav-menu">
+                    <ul class="main-menu">
+                        <li><a href="">Home</a></li>
+                        <li>
+                            <a href="shop.html">Shop <i class="ti-angle-down"></i></a>
+                            <div class="mega-menu">
+                                <div class="mega">
+                                    <div class="row">
+                                        <div class="content">
+                                            <div class="col-3">
+                                                <div class="row-col mg-left">
+                                                    <a href="">
+                                                        <img src="./assets/img/1.gallerie-006.webp" alt="">
+                                                    </a>
+                                                </div>
+    
+                                            </div>
+    
+                                            <div class="col-9">
+                                                <div class="row">
+                                                    <div class="col row-col">
+                                                        <h4 class="tittle">Shop by style</h4>
+                                                        <ul class="mega-link">
+                                                            <li><a href="#">Chronographs</a></li>
+                                                            <li><a href="#">Dress Watches</a></li>
+                                                            <li><a href="#">Premier Watches</a></li>
+                                                            <li><a href="#">Our Favourites</a></li>
+                                                        </ul>
+                                                    </div>
+                    
+                                                    <div class="col row-col">
+                                                        <h4 class="tittle">Shop by style</h4>
+                                                        <ul class="mega-link">
+                                                            <li><a href="#">Tag Heuer</a></li>
+                                                            <li><a href="#">Omega</a></li>
+                                                            <li><a href="#">IWC</a></li>
+                                                            <li><a href="#">Hublot</a></li>
+                                                            <li><a href="#">Breitling</a></li>
+                                                            <li><a href="#">Audemars Piguet</a></li>
+                                                        </ul>
+                                                    </div>
+                    
+                                                    <div class=" col row-col">
+                                                        <h4 class="title">Information</h4>
+                                                        <ul class="mega-link">
+                                                            <li><a href="#">Shipping</a></li>
+                                                            <li><a href="#">From the Blog</a></li>
+                                                            <li><a href="#">Returns</a></li>
+                                                            <li><a href="#">Theme Features</a></li>
+                                                            <li><a href="#">About Us</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="theme_features.html">Theme Features</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="text-width">
+                <div class="d-flex justify-content-center bg_black">
+                    <div class="text-all">
+
+                        <div class="size-15">
+                            <div class="icon">
+                                <svg class="fash--icon-theme-watch " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 20" height="20" xml:space="preserve">
+                                    <g class="hover-fill" fill="#ffffff">
+                                      <path d="M4.90628979,20 L3.55628979,15.45 C2.75628979,14.8166667 2.11462312,14.025 1.63128979,13.075 C1.14795646,12.125 0.906289789,11.1 0.906289789,10 C0.906289789,8.9 1.14795646,7.875 1.63128979,6.925 C2.11462312,5.975 2.75628979,5.18333333 3.55628979,4.55 L4.90628979,0 L10.9062898,0 L12.2562898,4.55 C13.0562898,5.18333333 13.6979565,5.975 14.1812898,6.925 C14.6646231,7.875 14.9062898,8.9 14.9062898,10 C14.9062898,11.1 14.6646231,12.125 14.1812898,13.075 C13.6979565,14.025 13.0562898,14.8166667 12.2562898,15.45 L10.9062898,20 L4.90628979,20 Z M7.90628979,15 C9.28962312,15 10.4687898,14.5125 11.4437898,13.5375 C12.4187898,12.5625 12.9062898,11.3833333 12.9062898,10 C12.9062898,8.61666667 12.4187898,7.4375 11.4437898,6.4625 C10.4687898,5.4875 9.28962312,5 7.90628979,5 C6.52295646,5 5.34378979,5.4875 4.36878979,6.4625 C3.39378979,7.4375 2.90628979,8.61666667 2.90628979,10 C2.90628979,11.3833333 3.39378979,12.5625 4.36878979,13.5375 C5.34378979,14.5125 6.52295646,15 7.90628979,15 Z M6.00628979,3.25 C6.33962312,3.16666667 6.66045646,3.1 6.96878979,3.05 C7.27712312,3 7.58962312,2.975 7.90628979,2.975 C8.22295646,2.975 8.53545646,3 8.84378979,3.05 C9.15212312,3.1 9.47295646,3.16666667 9.80628979,3.25 L9.40628979,2 L6.40628979,2 L6.00628979,3.25 Z M6.40628979,18 L9.40628979,18 L9.80628979,16.75 C9.47295646,16.8333333 9.15212312,16.8958333 8.84378979,16.9375 C8.53545646,16.9791667 8.22295646,17 7.90628979,17 C7.58962312,17 7.27712312,16.9791667 6.96878979,16.9375 C6.66045646,16.8958333 6.33962312,16.8333333 6.00628979,16.75 L6.40628979,18 Z M6.00628979,2.0375 L9.80628979,2.0375 L6.00628979,2.0375 Z M6.40628979,18.0375 L6.00628979,18.0375 L9.80628979,18.0375 L6.40628979,18.0375 Z" fill-rule="nonzero"></path>
+                                    </g>
+                                  </svg>
+                            </div>
+                            <div class="text">
+                                <strong class="pd_15 options1">Flexible Finance options</strong>
+                                <strong class="pd_15 options2">Flexible Finance <br> options</strong>
+                            </div>
+                        </div>
+                        <div class="size-15">
+                            <div class="icon">
+                                
+                                <svg class="fash--icon-theme-globe " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21 20" height="20" xml:space="preserve">
+                                    <g class="hover-fill" fill="#ffffff">
+                                      <path d="M10.7591036,20 C9.39243697,20 8.10077031,19.7375 6.88410364,19.2125 C5.66743697,18.6875 4.60493697,17.9708333 3.69660364,17.0625 C2.78827031,16.1541667 2.07160364,15.0916667 1.54660364,13.875 C1.02160364,12.6583333 0.759103641,11.3666667 0.759103641,10 C0.759103641,8.61666667 1.02160364,7.32083333 1.54660364,6.1125 C2.07160364,4.90416667 2.78827031,3.84583333 3.69660364,2.9375 C4.60493697,2.02916667 5.66743697,1.3125 6.88410364,0.7875 C8.10077031,0.2625 9.39243697,0 10.7591036,0 C12.142437,0 13.4382703,0.2625 14.6466036,0.7875 C15.854937,1.3125 16.9132703,2.02916667 17.8216036,2.9375 C18.729937,3.84583333 19.4466036,4.90416667 19.9716036,6.1125 C20.4966036,7.32083333 20.7591036,8.61666667 20.7591036,10 C20.7591036,11.3666667 20.4966036,12.6583333 19.9716036,13.875 C19.4466036,15.0916667 18.729937,16.1541667 17.8216036,17.0625 C16.9132703,17.9708333 15.854937,18.6875 14.6466036,19.2125 C13.4382703,19.7375 12.142437,20 10.7591036,20 Z M10.7591036,17.95 C11.192437,17.35 11.567437,16.725 11.8841036,16.075 C12.2007703,15.425 12.4591036,14.7333333 12.6591036,14 L8.85910364,14 C9.05910364,14.7333333 9.31743697,15.425 9.63410364,16.075 C9.95077031,16.725 10.3257703,17.35 10.7591036,17.95 Z M8.15910364,17.55 C7.85910364,17 7.59660364,16.4291667 7.37160364,15.8375 C7.14660364,15.2458333 6.95910364,14.6333333 6.80910364,14 L3.85910364,14 C4.34243697,14.8333333 4.94660364,15.5583333 5.67160364,16.175 C6.39660364,16.7916667 7.22577031,17.25 8.15910364,17.55 Z M13.3591036,17.55 C14.292437,17.25 15.1216036,16.7916667 15.8466036,16.175 C16.5716036,15.5583333 17.1757703,14.8333333 17.6591036,14 L14.7091036,14 C14.5591036,14.6333333 14.3716036,15.2458333 14.1466036,15.8375 C13.9216036,16.4291667 13.6591036,17 13.3591036,17.55 Z M3.00910364,12 L6.40910364,12 C6.35910364,11.6666667 6.32160364,11.3375 6.29660364,11.0125 C6.27160364,10.6875 6.25910364,10.35 6.25910364,10 C6.25910364,9.65 6.27160364,9.3125 6.29660364,8.9875 C6.32160364,8.6625 6.35910364,8.33333333 6.40910364,8 L3.00910364,8 C2.92577031,8.33333333 2.86327031,8.6625 2.82160364,8.9875 C2.77993697,9.3125 2.75910364,9.65 2.75910364,10 C2.75910364,10.35 2.77993697,10.6875 2.82160364,11.0125 C2.86327031,11.3375 2.92577031,11.6666667 3.00910364,12 Z M8.40910364,12 L13.1091036,12 C13.1591036,11.6666667 13.1966036,11.3375 13.2216036,11.0125 C13.2466036,10.6875 13.2591036,10.35 13.2591036,10 C13.2591036,9.65 13.2466036,9.3125 13.2216036,8.9875 C13.1966036,8.6625 13.1591036,8.33333333 13.1091036,8 L8.40910364,8 C8.35910364,8.33333333 8.32160364,8.6625 8.29660364,8.9875 C8.27160364,9.3125 8.25910364,9.65 8.25910364,10 C8.25910364,10.35 8.27160364,10.6875 8.29660364,11.0125 C8.32160364,11.3375 8.35910364,11.6666667 8.40910364,12 Z M15.1091036,12 L18.5091036,12 C18.592437,11.6666667 18.654937,11.3375 18.6966036,11.0125 C18.7382703,10.6875 18.7591036,10.35 18.7591036,10 C18.7591036,9.65 18.7382703,9.3125 18.6966036,8.9875 C18.654937,8.6625 18.592437,8.33333333 18.5091036,8 L15.1091036,8 C15.1591036,8.33333333 15.1966036,8.6625 15.2216036,8.9875 C15.2466036,9.3125 15.2591036,9.65 15.2591036,10 C15.2591036,10.35 15.2466036,10.6875 15.2216036,11.0125 C15.1966036,11.3375 15.1591036,11.6666667 15.1091036,12 Z M14.7091036,6 L17.6591036,6 C17.1757703,5.16666667 16.5716036,4.44166667 15.8466036,3.825 C15.1216036,3.20833333 14.292437,2.75 13.3591036,2.45 C13.6591036,3 13.9216036,3.57083333 14.1466036,4.1625 C14.3716036,4.75416667 14.5591036,5.36666667 14.7091036,6 Z M8.85910364,6 L12.6591036,6 C12.4591036,5.26666667 12.2007703,4.575 11.8841036,3.925 C11.567437,3.275 11.192437,2.65 10.7591036,2.05 C10.3257703,2.65 9.95077031,3.275 9.63410364,3.925 C9.31743697,4.575 9.05910364,5.26666667 8.85910364,6 Z M3.85910364,6 L6.80910364,6 C6.95910364,5.36666667 7.14660364,4.75416667 7.37160364,4.1625 C7.59660364,3.57083333 7.85910364,3 8.15910364,2.45 C7.22577031,2.75 6.39660364,3.20833333 5.67160364,3.825 C4.94660364,4.44166667 4.34243697,5.16666667 3.85910364,6 Z" fill-rule="nonzero"></path>
+                                    </g>
+                                  </svg>
+                            </div>
+                            <div class="text">
+                                <strong class="pd_15">Worldwide Shipping</strong>
+                            </div>
+                        </div>
+                        <div class="size-15">
+                            <div class="icon">
+                                <svg class="fash--icon-theme-verified " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21 20" height="20" xml:space="preserve">
+                                    <g class="hover-fill" fill="#ffffff">
+                                      <path d="M7.23809524,20 L5.42857143,16.952381 L2,16.1904762 L2.33333333,12.6666667 L0,10 L2.33333333,7.33333333 L2,3.80952381 L5.42857143,3.04761905 L7.23809524,0 L10.4761905,1.38095238 L13.7142857,0 L15.5238095,3.04761905 L18.952381,3.80952381 L18.6190476,7.33333333 L20.952381,10 L18.6190476,12.6666667 L18.952381,16.1904762 L15.5238095,16.952381 L13.7142857,20 L10.4761905,18.6190476 L7.23809524,20 Z M8.04761905,17.5714286 L10.4761905,16.5238095 L12.952381,17.5714286 L14.2857143,15.2857143 L16.9047619,14.6666667 L16.6666667,12 L18.4285714,10 L16.6666667,7.95238095 L16.9047619,5.28571429 L14.2857143,4.71428571 L12.9047619,2.42857143 L10.4761905,3.47619048 L8,2.42857143 L6.66666667,4.71428571 L4.04761905,5.28571429 L4.28571429,7.95238095 L2.52380952,10 L4.28571429,12 L4.04761905,14.7142857 L6.66666667,15.2857143 L8.04761905,17.5714286 Z M9.47619048,13.3809524 L14.8571429,8 L13.5238095,6.61904762 L9.47619048,10.6666667 L7.42857143,8.66666667 L6.0952381,10 L9.47619048,13.3809524 Z" fill-rule="nonzero"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="text">
+                                <strong class="pd_15">Guaranteed Authentic</strong>
+                            </div>
+                        </div>
+                        <div class="size-15">
+                            <div class="icon">
+                                <svg class="fash--icon-theme-phone " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21 20" height="20" xml:space="preserve">
+                                    <g class="hover-fill" fill="#ffffff">
+                                      <path d="M3.06821861,4.86285013 C2.1035861,6.10309193 2.21343698,7.86754506 3.32445354,8.97856164 L11.3563473,17.0104554 C12.4673639,18.121472 14.231817,18.2313229 15.4720588,17.2666904 L18.2578194,15.0999877 L15.4180118,12.2601803 L13.9493553,13.7288368 C13.1382386,14.5399535 11.8231586,14.5399535 11.012042,13.7288368 L6.60607213,9.32286693 C5.79495547,8.51175031 5.79495547,7.19667038 6.60607213,6.38555372 L8.07472871,4.9168971 L5.23492125,2.07708959 L3.06821861,4.86285013 Z M9.54338538,3.44824048 C10.354502,4.25935713 10.354502,5.57443707 9.54338538,6.38555372 L8.07472871,7.85421035 L12.4806986,12.2601803 L13.9493553,10.7915236 C14.7604719,9.98040692 16.0755518,9.98040692 16.8866685,10.7915236 L19.726476,13.6313311 C20.5375926,14.4424478 20.5375926,15.7575277 19.726476,16.5686443 C19.6655781,16.6295422 19.6009515,16.6865935 19.5329704,16.7394676 L16.7472099,18.9061702 C14.6801402,20.5138911 11.739385,20.3308063 9.88769077,18.4791121 L1.85579692,10.4472182 C0.00410264097,8.59552398 -0.178982158,5.65476876 1.42873869,3.58769908 L3.59544134,0.801938556 C4.29968781,-0.103521202 5.60461253,-0.266636793 6.51007229,0.437609685 C6.57805337,0.490483849 6.64267998,0.547535087 6.70357787,0.60843297 L9.54338538,3.44824048 Z" fill-rule="nonzero"></path>
+                                    </g>
+                                  </svg>
+                            </div>
+                            <div class="text">
+                                <strong class="pd_15 phone">Call us: 1-800-000-0000</strong>
+                                <strong class="pd_15 call">Call us: 1-800-000-<br>0000</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/gallerie-001.webp" class="d-block w-100 img-watch" alt="...">
+                        <div class="box-slider_show">
+                            <div class="box-show">
+                                <h2 class="box-title">STATEMENT TIMEPIECES</h2>
+                                <p>Complete any look with our luxe brands</p>
+                                <div class="btn-box">
+                                    <button>
+                                        <a href="shop-men.html">START SHOPPING</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/gallerie-002.webp" class="d-block w-100 img-watch" alt="...">
+                        <div class="box-slider_show">
+                            <div class="box-show">
+                                <h2 class="box-title">CLASSIC DESIGNS</h2>
+                                <p>Browse our selection of go-to favorites</p>
+                                <div class="btn-box">
+                                    <button>
+                                        <a href="explore.html">EXPLORE</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="endow">
+                <div class="pd-col-3">
+                    <div class="row">
+                        <div class="col p">
+                            <h3>EXTENDED WARRANTY</h3>
+                            <p>UP TO 10 YEAR COVERAGE</p>
+                        </div>
+                        <div class="col before">
+                            <h3>FREE SHIPPING</h3>
+                            <p>2-3 DAY SERVICE AVAILABLE</p>
+                        </div>
+                        <div class="col before">
+                            <h3>FREE 30 DAY RETURNS</h3>
+                            <p>OFFERED ON ALL ITEMS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buy">
+                <div class="buy-watch">
+                    <div class="row men-women">
+                        <div class="col-md">
+                            <div class="carousel-item active">
+                                    <img src="./assets/img/gallerie-006.webp" class="d-block w-100" alt="...">
+                                    <div class="box-slider_show">
+                                        <div class="box-show pd-20">
+                                            <h3 class="box-title">MENS</h3>
+                                            <p>View our extensive range</p>
+                                            <div class="btn-box">
+                                                <button class="watch-men-women">
+                                                    <a href="shop-men.html">SHOP MEN</a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="carousel-item active">
+                                    <img src="./assets/img/gallerie-007.webp" class="d-block w-100" alt="...">
+                                    <div class="box-slider_show">
+                                        <div class="box-show pd-20">
+                                            <h3 class="box-title">WOMENS</h3>
+                                            <p>Classic looks and elegant styles</p>
+                                            <div class="btn-box">
+                                                <button class="watch-men-women">
+                                                    <a href="./shop-women.html">SHOP WOMEN</a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-trending">
+                    <div class="row-sub-trending">
+                        <div class="heading">
+                            <h2>TRENDING</h2>
+                        </div>
+
+                        <div class="wrapper" id="formList">
+                            <div class="sub-wapper">
+                                <div class="carousel">
+                                    <div class="card">
+                                        <a href="./product/big-pilots.html">
+                                            <div class="img"><img src="./assets/img/trending/iwc-big-pilots.webp" alt="img" draggable="false"></div>
+                                        </a>
+                                        <button class="text" id="myBtn" onclick="document.getElementById('quick_modal').style.display = 'block'" type="button">QUICK SHOP</button>
+                                        <a href="./product/big-pilots.html">
+                                            <p class="font-15-2b">IWC</p>
+                                            <h2 class="font-15-2b">Big Pilots</h2>
+                                        </a>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 13,900.00</span></div>
+                                        
+                                    </div>
+                                    <div id="quick_modal">
+                                        <div class="product_section modal">
+                                            <div class="quick-close" onclick="document.getElementById('quick_modal').style.display = 'none'">
+                                                <i class="ti-close"></i>
+                                            </div>
+                                            <div class="product_section-images">
+                                                <div class="box-image">
+                                                    <img src="./assets/img/highlight-2/3.Iwc-pilots-chronograph.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product_section-content">
+                                                <div class="product_section-details">
+                                                    <div class="product-header">
+                                                        <h4>IWC</h4>
+                                                        <h3>Big Pilots</h3>
+                                                        <div class="product-price">
+                                                            <span>$ 13,900.00</span>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="product-quantity">
+                                                        <label for="" class="h5">Quantity</label>
+                                                        <div class="product-btn-wrapper">
+                                                            <button class="down-quality">
+                                                                <span class="visually-hidden"></span> -
+                                                            </button>
+                                                            <input type="text" value="1">
+                                                            <button class="up-quality" type="button">
+                                                                <span class="visually-hidden"></span> +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="product-button">
+                                                        <div class="product-btn-add">
+                                                            <input type="text" type="submit" value="Add to cart">
+                                                        </div>
+                                                        <div class="product-btn-buy">
+                                                            <button type="button">
+                                                                Buy it now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <a href="./product/carrera.html">
+                                            <div class="img"><img src="./assets/img/trending/tag-heuer-carrera-2.webp" alt="img" draggable="false"></div>
+                                        </a>
+                                        <button class="text" type="button" onclick="document.getElementById('carrera').style.display = 'block'">QUICK SHOP</button>
+                                        <a href="./product/carrera.html">  
+                                            <p class="font-15-2b">Tag Heuer</p>
+                                            <h2 class="font-15-2b">Carrera</h2>
+                                            <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 9,600.00</span></div>
+                                        </a>
+                                    </div>
+                                    <div id="carrera">
+                                        <div class="product_section modal">
+                                            <div class="quick-close" onclick="document.getElementById('carrera').style.display = 'none'">
+                                
+                                                <i class="ti-close"></i>
+                                            </div>
+                                            <div class="product_section-images">
+                                                <div class="box-image">
+                                                    <img src="./assets/img/trending/tag-heuer-carrera-2.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product_section-content">
+                                                <div class="product_section-details">
+                                                    <div class="product-header">
+                                                        <h4>Tag Heuer</h4>
+                                                        <h3>Carrera</h3>
+                                                        <div class="product-price">
+                                                            <span>$ 9,600.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-quantity">
+                                                        <label for="" class="h5">Quantity</label>
+                                                        <div class="product-btn-wrapper">
+                                                            <button class="down-quality">
+                                                                <span class="visually-hidden"></span> -
+                                                            </button>
+                                                            <input type="text" value="1">
+                                                            <button class="up-quality" type="button">
+                                                                <span class="visually-hidden"></span> +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="product-button">
+                                                        <div class="product-btn-add">
+                                                            <input type="text" type="submit" value="Add to cart">
+                                                        </div>
+                                                        <div class="product-btn-buy">
+                                                            <button type="button">
+                                                                Buy it now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="card">
+                                        <a href="./product/cosmonaute.html">
+                                            <div class="img"><img src="./assets/img/trending/Breitling-cosmonaute-3.webp" alt="img" draggable="false"></div>
+                                        </a>
+                                        <button class="text" type="button" onclick="document.getElementById('cosmonaute').style.display = 'block'">QUICK SHOP</button>
+                                        <a href="./product/cosmonaute.html">
+                                            <p class="font-15-2b">Breitling</p>
+                                            <h2 class="font-15-2b">Cosmonaute</h2>
+                                            <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 10,214.00</span></div>
+                                        </a>
+                                    </div>
+                                    <div id="cosmonaute">
+                                        <div class="product_section modal">
+                                            <div class="quick-close" onclick="document.getElementById('cosmonaute').style.display = 'none'">
+                                
+                                                <i class="ti-close"></i>
+                                            </div>
+                                            <div class="product_section-images">
+                                                <div class="box-image">
+                                                    <img src="./assets/img/trending/Breitling-cosmonaute-3.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product_section-content">
+                                                <div class="product_section-details">
+                                                    <div class="product-header">
+                                                        <h4>Breitling</h4>
+                                                        <h3>Cosmonaute</h3>
+                                                        <div class="product-price">
+                                                            <span>$ 10,214.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-quantity">
+                                                        <label for="" class="h5">Quantity</label>
+                                                        <div class="product-btn-wrapper">
+                                                            <button class="down-quality">
+                                                                <span class="visually-hidden"></span> -
+                                                            </button>
+                                                            <input type="text" value="1">
+                                                            <button class="up-quality" type="button">
+                                                                <span class="visually-hidden"></span> +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="product-button">
+                                                        <div class="product-btn-add">
+                                                            <input type="text" type="submit" value="Add to cart">
+                                                        </div>
+                                                        <div class="product-btn-buy">
+                                                            <button type="button">
+                                                                Buy it now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="card">
+                                        <a href="./product/navitimer.html">
+                                            <div class="img"><img src="./assets/img/trending/Brietling-navitimer-4.webp" alt="img" draggable="false"></div>
+                                        </a>
+                                        <button class="text" type="button" onclick="document.getElementById('navitimer').style.display = 'block'">QUICK SHOP</button>
+                                        <a href="./product/navitimer.html">
+                                            <p class="font-15-2b">Breitling</p>
+                                            <h2 class="font-15-2b">Navitimer</h2>
+                                            <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 10,290.00</span></div>
+                                        </a>
+                                    </div>
+                                    <div id="navitimer">
+                                        <div class="product_section modal">
+                                            <div class="quick-close" onclick="document.getElementById('navitimer').style.display = 'none'">
+                                
+                                                <i class="ti-close"></i>
+                                            </div>
+                                            <div class="product_section-images">
+                                                <div class="box-image">
+                                                    <img src="./assets/img/trending/Brietling-navitimer-4.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product_section-content">
+                                                <div class="product_section-details">
+                                                    <div class="product-header">
+                                                        <h4>Breitling</h4>
+                                                        <h3>Navitimer</h3>
+                                                        <div class="product-price">
+                                                            <span>$ 10,290.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-quantity">
+                                                        <label for="" class="h5">Quantity</label>
+                                                        <div class="product-btn-wrapper">
+                                                            <button class="down-quality">
+                                                                <span class="visually-hidden"></span> -
+                                                            </button>
+                                                            <input type="text" value="1">
+                                                            <button class="up-quality" type="button">
+                                                                <span class="visually-hidden"></span> +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="product-button">
+                                                        <div class="product-btn-add">
+                                                            <input type="text" type="submit" value="Add to cart">
+                                                        </div>
+                                                        <div class="product-btn-buy">
+                                                            <button type="button">
+                                                                Buy it now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <div class="img"><img src="./assets/img/trending/Breitling-navitime-world-5.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button" onclick="document.getElementById('world').style.display = 'block'">QUICK SHOP</button>
+                                        <p class="font-15-2b">Breitling</p>
+                                        <h2 class="font-15-2b">Navitimer World</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 8,690.00</span></div>
+                                    </div>
+                                    <div id="world">
+                                        <div class="product_section modal">
+                                            <div class="quick-close" onclick="document.getElementById('world').style.display = 'none'">
+                                
+                                                <i class="ti-close"></i>
+                                            </div>
+                                            <div class="product_section-images">
+                                                <div class="box-image">
+                                                    <img src="./assets/img/trending/Breitling-navitime-world-5.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product_section-content">
+                                                <div class="product_section-details">
+                                                    <div class="product-header">
+                                                        <h4>Breitling</h4>
+                                                        <h3>Navitimer World</h3>
+                                                        <div class="product-price">
+                                                            <span>$ 8,694.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-quantity">
+                                                        <label for="" class="h5">Quantity</label>
+                                                        <div class="product-btn-wrapper">
+                                                            <button class="down-quality">
+                                                                <span class="visually-hidden"></span> -
+                                                            </button>
+                                                            <input type="text" value="1">
+                                                            <button class="up-quality" type="button">
+                                                                <span class="visually-hidden"></span> +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="product-button">
+                                                        <div class="product-btn-add">
+                                                            <input type="text" type="submit" value="Add to cart">
+                                                        </div>
+                                                        <div class="product-btn-buy">
+                                                            <button type="button">
+                                                                Buy it now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img"><img src="./assets/img/trending/Iwc-pilots-chronograph-6.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button" onclick="document.getElementById('cosmonaute').style.display = 'block'">QUICK SHOP</button>
+                                        <p class="font-15-2b">IWC</p>
+                                        <h2 class="font-15-2b">Pilots Chronagraph</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 6,700.00</span></div>
+                                    </div>
+    
+                                    <div class="card">
+                                        <div class="img"><img src="./assets/img/trending/iwc-portugesier-yacht-club-7.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button" onclick="document.getElementById('cosmonaute').style.display = 'block'">QUICK SHOP</button>
+                                        <p class="font-15-2b">IWC</p>
+                                        <h2 class="font-15-2b">Portugiesier Yacht Club</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 13,800.00</span></div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img"><img src="./assets/img/trending/watch-8.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button" onclick="document.getElementById('cosmonaute').style.display = 'block'">QUICK SHOP</button>
+                                        <p class="font-15-2b">Audemars Piguet</p>
+                                        <h2 class="font-15-2b">Royal Oak Offshore</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 49,999.00</span></div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img"><img src="./assets/img/trending/watch-9.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button" onclick="document.getElementById('cosmonaute').style.display = 'block'">QUICK SHOP</button>
+                                        <p class="font-15-2b">Omega</p>
+                                        <h2 class="font-15-2b">Seamaster</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 7,020.00</span></div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img"><img src="./assets/img/trending/Omega-seamaster-10.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button" onclick="document.getElementById('cosmonaute').style.display = 'block'">QUICK SHOP</button>
+                                        <p class="font-15-2b">Omega</p>
+                                        <h2 class="font-15-2b">Seamaster 300 Co-Axial</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 13,600.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="wrapper">
+                            <div class="direction">
+                                <button id="prev">
+                                    <i class="fa-solid fa-angle-left" style="color: #2b2b2b;" ></i>
+                                </button>
+                                <button id = "next">
+                                    <i class="fa-solid fa-angle-right " style="color: #2b2b2b;" ></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="logo">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="" class="">
+                            <img src="./assets/img/logo/image_grid4_1.avif" alt="" class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="" class="">
+                            <img src="./assets/img/logo/image_grid3_2.avif" alt="" class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="" class="">
+                            <img src="./assets/img/logo/image_grid2_3.avif" alt="" class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="" class="">
+                            <img src="./assets/img/logo/image_grid1_4.avif" alt="" class="logo-img">
+                        </a>
+                    </div>
+                    <div class=""></div>
+                </div>
+            </div>
+
+            <div class="now-pay">
+                <div class="pay">
+                    <div class="carousel-item active">
+                            <img src="./assets/img/buy-now/gallerie-008.webp" class="transform" alt="...">
+                            <div class="box-slider_show">
+                                <div class="box-show pd-20">
+                                    <h2 class="heading-buy-now ">BUY NOW PAY LATER</h2>
+                                    <p>Flexible payment options available</p>
+                                    <p><br></p>
+                                    <div class="btn-box">
+                                        <button class="watch-men-women">
+                                            <a href="./start-shopping.html">START SHOPPING</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="high-light">
+                <div class="row-trending">
+                    <div class="row-sub-trending">
+                        <div class="heading">
+                            <h2>HIGHLIGHT</h2>
+                        </div>
+                        <div class="wrapper-high_light">
+                            <div class="d-flex gap-2 justify-content-center pd">
+                                <button class="btn mg-5 tablink bgr" type="button" onclick="openFood(event,'watch-one')">Dress Watches</button>
+                                <button class="btn mg-5 tablink" type="button" onclick="openFood(event,'watch-two')">Most Wanted</button>
+                            </div>
+
+                            <div id="watch-one" class="sub-wapper watch">
+                                <i id="left" class="fa-solid fa-angle-left angle" style="color: #2b2b2b;"></i>
+                                <div class="carousel">
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/1.hublot-big-bang-2.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Hublot</p>
+                                        <h2 class="font-15-2b">Big Bang</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 11,856.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/2.iwc-big-pilots.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">IWC</p>
+                                        <h2 class="font-15-2b">Big Pilots</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 13,900.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/3.Monaco.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Tag Heuer</p>
+                                        <h2 class="font-15-2b">Mocaco</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 7,700.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/4.tag-heuer-monaco-black.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Tag Heuer</p>
+                                        <h2 class="font-15-2b">Monaco</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 6,800.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/5.iwc-portugesier-yacht-club.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">IWC</p>
+                                        <h2 class="font-15-2b">Portugiesier Yacht Club</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 13,800.00</span></div>
+                                    </li>
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/6.Omega-seamaster.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Omega</p>
+                                        <h2 class="font-15-2b">Seamaster 300 Co-Axial</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 13,600.00</span></div>
+                                    </li>
+    
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight/7.omega-seamaster-300-co-axial.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Omega</p>
+                                        <h2 class="font-15-2b">Seamaster 300 Co-Axial</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 8,860.00</span></div>
+                                    </li>
+                                </div>
+                                <i id="right" class="fa-solid fa-angle-right angle" style="color: #2b2b2b;"></i>
+                            </div>
+                            
+
+                            <div id="watch-two" class="sub-wapper-two watch">
+                                <i id="left" class="fa-solid fa-angle-left angle" style="color: #2b2b2b;"></i>
+                                <ul class="carousel">
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/1.Brietling-navitimer.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Audemars Piguet</p>
+                                        <h2 class="font-15-2b">Royal Oak Offshore</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 38,000.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/2.Breitling-navitime-world.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Audemars Piguet</p>
+                                        <h2 class="font-15-2b">Royal Oak Offshore</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 49,999.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/3.Iwc-pilots-chronograph.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Audemars Piguet</p>
+                                        <h2 class="font-15-2b">Royal Oak Offshore</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 37,100.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/4.iwc-portugesier-yacht-club.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Breitling</p>
+                                        <h2 class="font-15-2b">Navitimer</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 10,290.00</span></div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/5.audemars-piguet-royal-oak-offshore-3.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">Breitling</p>
+                                        <h2 class="font-15-2b">Navitimer World</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 8,694.00</span></div>
+                                    </li>
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/6.audemars-piguet-royal-oak-offshore_91696ddf-b488-4583-b212-409b24aa872a.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">IWC</p>
+                                        <h2 class="font-15-2b">Pilots Chronagraph</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 6,700.00</span></div>
+                                    </li>
+    
+                                    <li class="card">
+                                        <div class="img"><img src="./assets/img/highlight-2/7.audemars-piguet-royal-oak-offshore-2.webp" alt="img" draggable="false"></div>
+                                        <button class="text" type="button">QUICK SHOP</button>
+                                        <p class="font-15-2b">IWC</p>
+                                        <h2 class="font-15-2b">Portugiesier Yacht Club</h2>
+                                        <div class="coin font-15-2b"><span><i class="fa-solid fa-dollar-sign" style="color: #2b2b2b;font-weight: 100;"></i> 8,690.00</span></div>
+                                    </li>
+                                </ul>
+                                <i id="right" class="fa-solid fa-angle-right angle" style="color: #2b2b2b;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="our-world">
+                <div class="for-world">
+                    <div class="carousel-item active">
+                            <img src="./assets/img/our-world/gallerie-004.webp" class="transform" alt="...">
+                            <div class="box-slider_show">
+                                <div class="box-show pd-20">
+                                    <h2 class="heading-buy-now ">DON'T JUST TAKE OUR WORD FOR IT</h2>
+                                    <p>What our customers are saying...</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="template">
+                <div class="row-template">
+                    <div class="row-sub-template">
+                        <div class="template-high_light">
+                            <div id="watch-one" class="sub-wapper">
+                                <i id="left" class="fa-solid fa-angle-left angle" style="color: #2b2b2b;"></i>
+                                <ul class="carousel">
+                                    <li class="card">
+                                        <div class="card-template">
+                                            <h3>Best company ever</h3>
+                                            <p>Care about their customers needs and really came through.<br>Husband loves his new watch.</p>
+                                            <div class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="card-template">
+                                            <h3>Great service</h3>
+                                            <p>We love dealing with this company.&nbsp;<br>Refreshingly easy experience</p>
+                                            <div class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="card-template">
+                                            <h3>Great selection</h3>
+                                            <p>Absolutely the best range of watches.<br>Staff are clearly very well trained.</p>
+                                            <div class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+        
+                                    <li class="card">
+                                        <div class="card-template">
+                                            <h3>Awesome</h3>
+                                            <p>Simply the best and easiest company to deal with.<br>Efficient customer service and great prices.</p>
+                                            <div class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                                <i id="right" class="fa-solid fa-angle-right angle" style="color: #2b2b2b;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="row">
+                    <div class="col-md">
+                        <h2>Subscribe to our newsletter</h2>
+                        <p>Signup for our newletter to stay up to date on sales and events.</p>
+                    </div>
+                    <div class="col-md">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control form-email" placeholder="Enter Your Email Address" aria-label="" aria-describedby="">
+                            <input type="submit" class="form-submit" value="Join">  
+                        </div>
+
+                        <div class="subscribe-icon">
+                            <ul class="">
+                                <li><a href=""><i class="ti-facebook" style="color: #ffffff;"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="top">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="footer-heading">
+                                    <h3>ABOUT</h3>
+                                </div>
+                                <p>Our products are inspired by the people and world around us. Beautiful, high quality goods that are designed especially for you. Discover our story and meet the people that make our brand what it is.</p>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="footer-heading">
+                                    <h3>EXPLORE</h3>
+                                </div>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About Us</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Theme Features</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="footer-heading">
+                                    <h3>QUICK LINKS</h3>
+                                </div>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Audemars Piguet</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Breitling</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Hublot</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">IWC</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Omega</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Tag Heuer</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="footer-heading">
+                                    <h3>RECENT POSTS</h3>
+                                </div>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">A practical guide to watches</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Millionaires of the 21st Century</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">What to Get That Special September Someone</a></li>
+                                </ul>
+                            </div>
+                        </div>  
+                     </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="sub-bottom">
+                        <div class="d-flex">
+                            <div class="flex-fill right">
+                                <ul class="">
+                                    <li><a href=""><i class="ti-facebook" style="color: #000;"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-x-twitter" style="color: #000;"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram" style="color: #000;"></i></a></li>
+                                </ul>
+
+                                <p class="copyright">
+                                    <a href="">
+                                        © 2023 Fashionopolism Galleria
+                                    </a>
+                                      • 
+                                    <a href="">
+                                        Powered by Shopify
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="flex-fill">
+                                <div class="flag list-icon">
+                                    <div class="sub-flag">
+                                        <button class="btn-flag">
+                                            <img src="./assets/img/slider/us.svg" alt="">
+                                            <span>USD $</span>  
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                                <div class="payment">
+                                    <ul>
+                                        <li><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg></li>
+                                        <li><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg></li>
+                                        <li><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"></path><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"></path><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"></path></g></svg></li>
+                                        <li><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"></path><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"></path><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path></svg></li>
+                                        <li><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-diners_club"><title id="pi-diners_club">Diners Club</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z" fill="#3086C8"></path></svg></li>
+                                        <li><svg class="payment-icon" viewBox="0 0 38 24" width="38" height="24" role="img" aria-labelledby="pi-discover" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="pi-discover">Discover</title><path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#fff"></path><path d="M3.57 7.16H2v5.5h1.57c.83 0 1.43-.2 1.96-.63.63-.52 1-1.3 1-2.11-.01-1.63-1.22-2.76-2.96-2.76zm1.26 4.14c-.34.3-.77.44-1.47.44h-.29V8.1h.29c.69 0 1.11.12 1.47.44.37.33.59.84.59 1.37 0 .53-.22 1.06-.59 1.39zm2.19-4.14h1.07v5.5H7.02v-5.5zm3.69 2.11c-.64-.24-.83-.4-.83-.69 0-.35.34-.61.8-.61.32 0 .59.13.86.45l.56-.73c-.46-.4-1.01-.61-1.62-.61-.97 0-1.72.68-1.72 1.58 0 .76.35 1.15 1.35 1.51.42.15.63.25.74.31.21.14.32.34.32.57 0 .45-.35.78-.83.78-.51 0-.92-.26-1.17-.73l-.69.67c.49.73 1.09 1.05 1.9 1.05 1.11 0 1.9-.74 1.9-1.81.02-.89-.35-1.29-1.57-1.74zm1.92.65c0 1.62 1.27 2.87 2.9 2.87.46 0 .86-.09 1.34-.32v-1.26c-.43.43-.81.6-1.29.6-1.08 0-1.85-.78-1.85-1.9 0-1.06.79-1.89 1.8-1.89.51 0 .9.18 1.34.62V7.38c-.47-.24-.86-.34-1.32-.34-1.61 0-2.92 1.28-2.92 2.88zm12.76.94l-1.47-3.7h-1.17l2.33 5.64h.58l2.37-5.64h-1.16l-1.48 3.7zm3.13 1.8h3.04v-.93h-1.97v-1.48h1.9v-.93h-1.9V8.1h1.97v-.94h-3.04v5.5zm7.29-3.87c0-1.03-.71-1.62-1.95-1.62h-1.59v5.5h1.07v-2.21h.14l1.48 2.21h1.32l-1.73-2.32c.81-.17 1.26-.72 1.26-1.56zm-2.16.91h-.31V8.03h.33c.67 0 1.03.28 1.03.82 0 .55-.36.85-1.05.85z" fill="#231F20"></path><path d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint0_linear)"></path><path opacity=".65" d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint1_linear)"></path><path d="M36.57 7.506c0-.1-.07-.15-.18-.15h-.16v.48h.12v-.19l.14.19h.14l-.16-.2c.06-.01.1-.06.1-.13zm-.2.07h-.02v-.13h.02c.06 0 .09.02.09.06 0 .05-.03.07-.09.07z" fill="#231F20"></path><path d="M36.41 7.176c-.23 0-.42.19-.42.42 0 .23.19.42.42.42.23 0 .42-.19.42-.42 0-.23-.19-.42-.42-.42zm0 .77c-.18 0-.34-.15-.34-.35 0-.19.15-.35.34-.35.18 0 .33.16.33.35 0 .19-.15.35-.33.35z" fill="#231F20"></path><path d="M37 12.984S27.09 19.873 8.976 23h26.023a2 2 0 002-1.984l.024-3.02L37 12.985z" fill="#F48120"></path><defs><linearGradient id="pi-paint0_linear" x1="21.657" y1="12.275" x2="19.632" y2="9.104" gradientUnits="userSpaceOnUse"><stop stop-color="#F89F20"></stop><stop offset=".25" stop-color="#F79A20"></stop><stop offset=".533" stop-color="#F68D20"></stop><stop offset=".62" stop-color="#F58720"></stop><stop offset=".723" stop-color="#F48120"></stop><stop offset="1" stop-color="#F37521"></stop></linearGradient><linearGradient id="pi-paint1_linear" x1="21.338" y1="12.232" x2="18.378" y2="6.446" gradientUnits="userSpaceOnUse"><stop stop-color="#F58720"></stop><stop offset=".359" stop-color="#E16F27"></stop><stop offset=".703" stop-color="#D4602C"></stop><stop offset=".982" stop-color="#D05B2E"></stop></linearGradient></defs></svg></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src="./assets/script/script-template.js"></script> -->
+    
+    <script>
+        function openFood(evt, foodName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("watch");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" bgr", "");
+            }
+            document.getElementById(foodName).style.display = "block";
+            evt.currentTarget.className += " bgr";
+        }
+    </script>
+    
+    <script src="./assets/script/script.js" ></script>
+</body>
+</html>
+

@@ -1,0 +1,258 @@
+.h-400 {
+    height: 400px;
+}
+
+.mg-0 {
+    margin: 0;
+    
+}
+
+.transform-shop-men {
+    transform: translate3d(0px, -1px, 0px) scale(1.3);
+    will-change: transform;
+    transition: transform 0.3s cubic-bezier(0, 0, 0, 1) 0s;
+    object-fit: cover;
+    height: 400px;
+}
+
+.box-slider_show h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: .05em;
+}
+
+.global {
+    padding-bottom: 22.5px;
+}
+
+.link-list {
+    background: #000000;
+}
+
+.link-list .row-list {
+    margin: 0px 2.966%;
+    padding: 0 1.04166667%;
+    width: 94%;
+    height: 46px;
+}
+
+.row-list ul {
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 46px;
+}
+
+.row-list a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.6em;
+}
+.row-list li a:hover {
+    color: #ffffff;
+}
+
+/* SECTION-TEMPLATE */
+
+.section-template {
+    margin: 22.5px 2.966% 0;
+    padding: 0 1.04166667%;
+}
+
+.section-template .product-list {
+    grid-gap: 30px;
+    display: grid;
+}
+
+.product-list .product-grid {
+    display: grid;
+}
+
+.product-grid .page {
+    margin-bottom: 30px;
+}
+
+.product-grid .main-collect {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-collect .img {
+    margin-bottom: 10px;
+}
+
+.main-collect .img:hover {
+    cursor: pointer;
+}
+
+.main-collect img {
+    width: 100%;
+}
+
+.main-collect .text-list {
+    position: relative;
+}
+
+.main-collect .text-list button {
+    background-color: #2b2b2b;
+    color: white;
+    height: 50px;
+    padding: 0px 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    z-index: 5;
+    transform: translate(-50%, -75%);
+    opacity: 0;
+    font-weight: 500;
+    border: 0;
+}
+
+.text-list:hover button {
+    opacity: 1;
+}
+
+button:hover {
+    background: #000;
+}
+
+.main-collect .product-info {
+    margin-top: 10px;
+}
+
+.product-info a {
+    text-decoration: none;
+}
+
+.product-info p {
+    margin-bottom: 5px !important;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    line-height: 1.6em;
+}
+
+.product-info h2 {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b2b2b;
+    letter-spacing: initial;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.product-info .price {
+    color: #2b2b2b;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+/* EXPLORE */
+
+.explore {
+    margin: 22.5px 2.966% 25px;
+    padding: 0 1.04166667%;
+    position: relative;
+}
+
+.explore-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 55.9402% 55.8551%;
+}
+
+.explore-caption {
+    left: 5%;
+    position: absolute;
+    transform: translate(5%, -50%);
+    top: 50%;
+    padding: 10px;
+}
+
+.explore-caption h2 {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: .05em;
+}
+
+.explore-caption p {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #ffffff;
+}
+
+.explore-caption button {
+    background: #000000;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* HIGH-LIGHT */
+.pd-22 {
+    margin: 22.5px 0 0!important;
+    padding: 0 0 22.5px !important;
+}
+
+.pd-22 .heading h2 {
+    font-size: 20px !important;
+    font-weight: 700;
+}
+
+.pd-22 li {
+    padding: 0 !important;
+}
+
+.pd-22 a {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.pd-22 h3 {
+    color: #2b2b2b;
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0px 0px 5px;
+    font-weight: 800;
+}
+
+.pd-22 p {
+    color: #2b2b2b;
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0 !important;
+}
